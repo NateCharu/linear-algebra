@@ -165,7 +165,7 @@ Now $PA = LU$ with $L=I$.
 
 ## 8. Active Recall (Anki + Teach‑it‑back)
 
-~~~csv
+```csv
 Question,Answer,Tags
 "Why does $(AB)^{-1}=B^{-1}A^{-1}$ and not $A^{-1}B^{-1}$?","The inner $BB^{-1}$ must collapse first. (Socks‑shoes rule.)",#inverse
 "Give the LU factorization of [[2,1],[8,7]].","$L=[[1,0],[4,1]]$, $U=[[2,1],[0,3]]$.",#LU
@@ -175,7 +175,8 @@ Question,Answer,Tags
 "If the first pivot is zero, can we still have A=LU?","No; need a row exchange, so PA=LU.",#LU #pivot
 "Solve Ax=b for A=[[2,1,0],[1,2,1],[0,1,2]] and b=(5,7,11) using LU.","c=(5,4.5,8), x=(3,-1,6).",#LU #solve
 "What does L tell you geometrically or structurally?","It tells how many of each row of U to add to get each row of A – it’s a recipe for reconstruction.",#LU #intuition
-~~~
+```
+
 
 **Teach‑it‑back challenge:**  
 Explain to a friend why $L$ has no “10” in the 3×3 example but $E$ does. Then show them how the rows of $A$ are just sums of rows of $U$ with weights from $L$. (3–5 sentences.)
